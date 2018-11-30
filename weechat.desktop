@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Weechat
+Comment=IRC Client
+GenericName=Weechat
+#Exec=urxvt -icon /usr/share/icons/hicolor/32x32/apps/weechat.png -T Weechat -name weechat -e weechat
+#Icon=/usr/share/icons/hicolor/32x32/apps/weechat.png
+Exec=urxvt -icon /home/eyjhb/.local/share/applications/weechat.png -T Weechat -name weechat -e weechat
+Icon=/home/eyjhb/.local/share/applications/weechat.png
+StartupWMClass=weechat
+StartupNotify=true
+Terminal=false
+Type=Application
+X-Desktop-File-Install-Version=0.22
